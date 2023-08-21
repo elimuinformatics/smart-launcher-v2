@@ -24,9 +24,6 @@ pipeline {
       }
     }
     stage('Build') {
-      environment {
-        NPM_TOKEN = credentials('NPM_TOKEN')
-      }
       steps {
         echo 'Building Docker Image'
         sh "docker build -t smart-launcher-v2 -f Dockerfile ."
