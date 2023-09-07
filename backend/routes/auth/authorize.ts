@@ -445,7 +445,7 @@ export default class AuthorizeHandler {
 
         apiUrl.hostname = apiUrl.hostname.replace(/^:\/\/localhost/, "://127.0.0.1")
         audUrl.hostname = apiUrl.hostname.replace(/^:\/\/localhost/, "://127.0.0.1")
-        console.log(apiUrl.href, audUrl.href);
+
         if (apiUrl.href !== audUrl.href) {
             throw new InvalidRequestError('Bad audience value "%s". Expected "%s".', params.aud, apiUrlHref)
         }
