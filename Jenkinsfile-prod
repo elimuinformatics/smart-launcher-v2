@@ -25,8 +25,8 @@ pipeline {
     }
     stage('Promote') {
       steps {
-        echo 'Promoting from INTERNAL to PROD'
-        sh 'docker run -v /var/run/docker.sock:/var/run/docker.sock $AWS_ENV $GIT_ENV cicd promote smart-launcher-v2 internal'
+        echo 'Promoting from STAGE to PROD'
+        sh 'docker run -v /var/run/docker.sock:/var/run/docker.sock $AWS_ENV $GIT_ENV cicd promote smart-launcher-v2 stage'
       }
     }
     stage('Wait') {
