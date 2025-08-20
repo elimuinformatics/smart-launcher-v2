@@ -1,3 +1,8 @@
+# ⚠️ Deprecated Repository
+
+This repository (`smart-launcher-v2`) is **no longer maintained** and should not be used for new projects.  
+It remains public for reference only.
+
 # SMART Launcher
 This server acts as a proxy that intercepts requests to otherwise open FHIR
 servers and requires those requests to be properly authorized. It also provides
