@@ -1,7 +1,9 @@
 # ⚠️ Deprecated Repository
 
 This repository (`smart-launcher-v2`) is **no longer maintained** and should not be used for new projects.  
-It remains public for reference only.
+It remains public for reference only.  
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 # SMART Launcher
 This server acts as a proxy that intercepts requests to otherwise open FHIR
